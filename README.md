@@ -6,6 +6,7 @@ In this project, we explored the development of knowledge-based concept token em
 
 ###### This repository consist of 5 sub projects
 
+```
 anlp/
 ├── data_build/        # creating the UKC triplets dataset
 ├── ukc_embedding/     # training KGE models on the UKC dataset
@@ -13,6 +14,7 @@ anlp/
 ├── mapping/           # training an MLP mapper between sentence and concept embeddings
 ├── wsd/               # fine-tuning a model for the WSD task
 └── assets/            # visualization assets
+```
 
 ### How to use
 
