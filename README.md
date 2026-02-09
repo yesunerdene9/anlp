@@ -57,7 +57,7 @@ python main.py --mode train # or
                     # for different hyperparameters
 ```
 
-### Results from the phases
+### Results
 
 **Performance metrics from KGE on UKC**
 
