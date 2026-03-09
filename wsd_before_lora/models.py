@@ -120,8 +120,8 @@ class ConceptClassifier(nn.Module):
         # self.scale = nn.Parameter(torch.tensor(10.0))
 
         # Apply concept mask: set logits to very negative for concepts not in training set
-        if self.concept_mask is not None:
-            logits = logits * self.concept_mask.unsqueeze(0) + (1.0 - self.concept_mask.unsqueeze(0)) * (-1e9)
+        # if self.concept_mask is not None:
+        #     logits = logits * self.concept_mask.unsqueeze(0) + (1.0 - self.concept_mask.unsqueeze(0)) * (-1e9)
         
         return logits
 
